@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    font-family: 'Crete Round', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+
+}
+
+.btn-primary {
+    background-color: orange;
+    color: red;
+    border-radius: 3px;
+    padding: 4px 20px;
+    font-size: large;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png')
+}
+
+.text-color {
+    color: brown;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+
+}
+
+.banner-title {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.banner-sub-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: gray;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    background: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* what i do section */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+
+.skill-description {
+    color: #757575;
+}
